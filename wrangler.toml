@@ -1,0 +1,10 @@
+name = "nostroots-telegram-forwarder"
+main = "src/index.ts"
+compatibility_date = "2024-01-17"
+compatibility_flags = [ "nodejs_compat" ]
+
+# Bind a KV Namespace. Use KV as persistent storage for small key-value pairs.
+# Docs: https://developers.cloudflare.com/workers/runtime-apis/kv
+kv_namespaces = [
+{ binding = "KEYS", id = "352c564e2ea0461db321cd5880f29cdc" }
+]

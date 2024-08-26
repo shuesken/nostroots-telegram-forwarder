@@ -1,0 +1,18 @@
+{
+  "name": "nostroots-telegram-forwarder",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "log": "wrangler tail"
+  },
+  "author": "",
+  "license": "AGPL-3.0-only",
+  "description": "",
+  "dependencies": {
+    "@nostrify/nostrify": "npm:@jsr/nostrify__nostrify@^0.30.0",
+    "pluscodes": "^2.6.0"
+  }
+}
